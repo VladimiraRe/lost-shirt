@@ -1,0 +1,21 @@
+.lined-text {
+    @include fontAlegreyaSansSC(calc(63/1645*100vw), 900, $thirdColor, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__word {
+        display: block;
+        background: $firstColor;
+        padding: 0 17px 8px;
+        margin-top: -7px;
+
+        &--yellow {
+            color: $secondColor;
+        }
+
+        &:nth-child(2n) {
+            margin-left: 10px;
+        }
+    }
+}

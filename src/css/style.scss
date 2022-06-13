@@ -1,0 +1,19 @@
+@import "./var";
+@import "./mixins";
+@import "./normalize";
+@import "./settings";
+
+//Hero
+@import "../blocks/hero/hero";
+//Header
+@import "../blocks/hero/header/header";
+//Слайдер
+@import "../blocks/hero/fade-slider/fade-slider";
+//Текст на слайдере
+@import "../blocks/lined-text/lined-text";
+//Продукты
+@import "../blocks/products/products";
+//Фильтр
+@import "../blocks/filter/filter";
+//Кнопки
+@import "../blocks/btn/btn";

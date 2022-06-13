@@ -1,0 +1,13 @@
+.btn {
+    @include fontYanoneKaffeesatz(24px, 700, $secondColor, 20px);
+    text-transform: uppercase;
+    padding: 10px 28px;
+    background: $firstColor;
+    border: none;
+
+    &:hover {
+        background: $fourthColor;
+        color: $seventhColor;
+        cursor: pointer;
+    }
+}

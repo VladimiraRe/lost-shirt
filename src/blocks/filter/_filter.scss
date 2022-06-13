@@ -1,0 +1,31 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    &__link {
+        text-decoration: none;
+        @include fontYanoneKaffeesatz(24px, 700, $firstColor, 20px);
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 10px 20px 7px;
+        text-align: center;
+
+        &:hover {
+            color: $fourthColor;
+        }
+
+        &--active {
+            background: $firstColor;
+            color: $secondColor;
+        }
+    }
+}

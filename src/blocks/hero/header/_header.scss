@@ -1,0 +1,49 @@
+.header {
+    padding: 28px 0;
+    display: flex;
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include _768 {
+            flex-direction: column;
+        }
+    }
+
+    &__logo {
+        width: calc(150/1645*100vw);
+
+        @include _768 {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+
+    &__text {
+        @include fontRoboto(16px, 400, $firstColor, 20px);
+        display: block;
+
+        @include _768 {
+            font-size: 14px;
+        }
+    }
+    
+    &__mail {
+        @include fontRoboto(16px, 400, $secondColor, 20px);
+        background-color: $firstColor;
+        padding: 10px 40px;
+        display: block;
+        text-align: center;
+
+        @include _768 {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+    }
+}

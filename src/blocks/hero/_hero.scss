@@ -1,0 +1,49 @@
+.hero {
+    height: calc(1000/1645*100vw);
+    min-height: 350px;
+    background-color: $secondColor;
+    background: url("../blocks/hero/img/hero.jpg") center center / cover no-repeat;
+    position: relative;
+
+    @include _768 {
+        height: calc(1500/1645*100vw);
+    }
+
+    @media (max-width: 700px) {
+        height: calc(1600/1645*100vw);
+    }
+
+    @include _576 {
+        height: calc(1700/1645*100vw);
+    }
+    
+    @media (max-width: 500px) {
+        height: calc(2000/1645*100vw);
+    }
+
+    @media (max-width: 400px) {
+        height: calc(2200/1645*100vw);
+    }
+
+    @include _350 {
+        height: calc(2400/1645*100vw);
+        min-height: auto;
+    }
+
+    &__content {
+        width: calc(1140/1645*100vw);
+        height: calc(655/1000*100%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        @include _992 {
+            top: 55%;
+        }
+
+        @include _768 {
+            top: 65%;
+        }
+    }
+}
