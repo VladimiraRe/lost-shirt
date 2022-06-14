@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc92f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon" class="cls-1" d="M27,28H48a1,1,0,0,1,1,1v1a1,1,0,0,1-1,1H27a1,1,0,0,1-1-1V29A1,1,0,0,1,27,28Zm0,9H48a1,1,0,0,1,1,1v1a1,1,0,0,1-1,1H27a1,1,0,0,1-1-1V38A1,1,0,0,1,27,37Zm0,9H48a1,1,0,0,1,1,1v1a1,1,0,0,1-1,1H27a1,1,0,0,1-1-1V47A1,1,0,0,1,27,46Z" transform="translate(-26 -28)"/>
+</svg>

@@ -1,0 +1,14 @@
+- const sidebarMenuItems = ["Детская коллекция", "Мужская коллекция", "Женская коллекция", "Популярные принты", "Новые принты", "Специальные предложения", "Скоро в продаже"]
+
+aside.sidebar
+    img(src=require("./img/burger.svg"), alt="Open menu").sidebar__burger
+    .sidebar__header
+        a(href="./index.html").sidebar__logo
+            img(src=require("./img/logo.png"), alt="Lost Shirt logo").sidebar__img
+        span.sidebar__close &times
+    nav.sidebar__menu
+        ul.sidebar__list
+            for i in sidebarMenuItems
+                li.sidebar__item
+                    a(href="#").sidebar__link #{i}
+
