@@ -17,21 +17,5 @@
         @include _768 {
             left: 55%;
         }
-
-        @include _576 {
-            left: 60%;
-        }
-
-        @include _480 {
-            left: 62%;
-        }
-
-        @media (max-width: 400px) {
-            left: 66%;
-        }
-
-        @media (max-width: 350px) {
-            left: 70%;
-        }
     }
 }
