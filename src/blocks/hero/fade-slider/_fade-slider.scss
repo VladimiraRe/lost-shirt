@@ -27,11 +27,11 @@
 
             & .fade-slider__text {
                 top: 50%;
-                left: 50%;
+                left: 58%;
                 transform: translate(-164%, -52%);
 
                 @include _768 {
-                    left: 55%;
+                    left: 62%;
                 }
             }
         }
