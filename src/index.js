@@ -4,3 +4,5 @@ import './css/style.scss';
 import './blocks/sidebar/_sidebar';
 //Подключение скрипта слайдера
 import './blocks/hero/fade-slider/_fade-slider';
+//Подключение переключения фильтра
+import './blocks/filter/_filter';
